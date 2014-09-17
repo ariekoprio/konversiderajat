@@ -1,0 +1,13 @@
+#include <stdio.h>
+main () {
+float celcius, fahrenheit, reamur;
+
+printf("Konversi Derajad Suhu\n\nMasukkan Suhu Dalam Celcius : ");
+scanf("%f", &celcius);
+
+fahrenheit = celcius*1.8+32;w
+reamur = celcius*0.8;
+
+printf("Suhu Dalam Fahrenheit : %g\nSuhu Dalam Reamur : %g", fahrenheit, reamur);
+
+}
